@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="backend_pages" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Backend Pages</name>
+	<description>
+		Adds the ability to add a page in the backend that shows an iframe from the front end.
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/backend_pages</repo>
+	<url type="discuss">https://github.com/DeuxHuitHuit/backend_pages/issues</url>
+	<types>
+		<type>Page</type>
+		<type>Backend</type>
+	</types>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>http://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>
+		<release version="0.1" date="2014-07-09" min="2.3">
+			- First commit
+		</release>
+	</releases>
+</extension>
